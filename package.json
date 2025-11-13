@@ -7,7 +7,7 @@
   "test:signup": "npx playwright test --grep @signup",
   "test:checkout": "npx playwright test --grep @checkout",
   "test:validation": "npx playwright test --grep @validation",
-  "test:all": "npm run test:signup && npm run test:checkout && npm run test:validation && npx playwright show-report"
+  "test:all": "npm run test:signup && npm run test:checkout && npm run test:validation"
 },
   "keywords": [],
   "author": "",
