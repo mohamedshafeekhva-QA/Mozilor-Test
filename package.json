@@ -1,0 +1,23 @@
+{
+  "name": "advantagedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:signup": "npx playwright test --grep @signup",
+  "test:checkout": "npx playwright test --grep @checkout",
+  "test:validation": "npx playwright test --grep @validation",
+  "test:all": "npm run test:signup && npm run test:checkout && npm run test:validation && npx playwright show-report"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "exceljs": "^4.4.0"
+  }
+}
